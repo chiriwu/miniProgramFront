@@ -1,0 +1,20 @@
+<!--pages/errorq/index.wxml-->
+<view class="manage_button" >
+  <text class="manage_style" bindtap="manage">管理</text>
+</view>
+
+<scroll-view>
+    <bolock wx:for="{{errorsets}}"   wx:key="index" class="singleitem">
+    <view class="single" bindtap="jumppage" data-snumber="{{index}}">
+    <view class="inner">
+      <text class="qstyle">{{item[0]}}</text>
+    </view>
+    <view class="inner">
+      <text class="astyle">答案:{{item[item.length-1]}}</text>
+      <!-- <text class="astyle">答案:{{question[item][question[item].length-1]}}</text> -->
+      <!-- <text class="astyle">答案:{{question[item][question[item].slice(-1).charCodeAt()]}}</text> -->
+    </view>
+    </view>
+    <button class="del_style" wx:if="{{manage_flag}}" bindtap="del" data-seq="{{index}}">X</button>
+  </bolock>
+</scroll-view>

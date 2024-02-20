@@ -1,0 +1,25 @@
+/* pages/filenorm/index.wxss */
+
+.norm{
+  margin-top: 30rpx;
+}
+view{
+  margin: 10rpx;
+  text-indent: 30rpx;
+}
+.head{
+  white-space:2rpx
+}
+.title{
+  
+  font-weight: 800;
+}
+
+.content{
+  background-color: lightgrey;
+}
+
+.bstyle{
+  color: #fff;
+  background-color: #5bc0de;
+}

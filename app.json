@@ -1,0 +1,22 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/offline/index",
+    "pages/errorq/index",
+    "pages/upload/index",
+    "pages/question/index",
+    "pages/my/index",
+    "pages/singleerr/index",
+    "pages/help/index",
+    "pages/filenorm/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "单机答题",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

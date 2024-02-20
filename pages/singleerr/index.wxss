@@ -1,0 +1,20 @@
+/* pages/singleerr/index.wxss */
+
+.option{
+  height: 50px;
+  background-color: lightyellow;
+  text-align: center;
+  line-height:50px;
+  margin-bottom: 10px;
+  /* vertical-align: center; */
+  width: 720rpx;
+}
+
+.box{
+  /* height: 500px; */
+  /* height: 300px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

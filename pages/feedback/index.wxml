@@ -1,0 +1,8 @@
+<!--pages/help/index.wxml-->
+<view class="introduce">
+  <view class="box">
+    <textarea bindinput="inputevent" name="feed_content" id="" cols="40" rows="30"  placeholder="请描述您遇到的问题" auto-focus></textarea>
+  </view>
+
+<button class="send" bindtap="sendcontent">发送</button>
+</view>

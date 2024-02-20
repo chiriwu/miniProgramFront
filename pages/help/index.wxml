@@ -1,0 +1,31 @@
+<!--pages/help/index.wxml-->
+<view class="title"><text>操作手册</text></view>
+<view class="introduce">
+<view class="pt">
+<text>本产品为单机答题，数据大部分保存在缓存中,以保证答题速度，如果清理缓存可能会使一部分数据丢失。</text>  
+</view>
+
+
+<view class="pt">
+<text>
+  答题：包含两个模块，为网络题目，如果答题错误，错误题会保存在错题页面。
+</text>
+</view>
+
+
+<view class="pt">
+<text>
+  错题： 保存答题过程的错题，右上角的管理按钮可以对错题进行管理。
+</text>
+</view>
+
+
+<view class="pt">
+<text>
+  我的： 建立自己的题集，添加文档需要符合一定的要求，添加成功后，题库出现在我的界面
+</text>
+</view>
+
+
+</view>
+

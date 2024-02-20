@@ -1,0 +1,34 @@
+<!--pages/filenorm/index.wxml-->
+<view class="norm"> 
+   
+<view class="head">
+   文档后缀名需要为 ".docx",可将文件另存为.docx格式。提供两种文档类型，文档类型指的是文档中的内容需要保证一定的规范性,表现在每题中的序号，选项以及答案,后续会继续增添文档类型，您也可在下方进行过反馈：
+</view>
+
+<view>
+  <view class="title">类型A:</view>
+  <view class="content">
+      <view>1. 在下列不平等条约中，含有强迫清政府把香港割让给英国这一内容的是（B ） 
+A.《北京条约》 B.《南京条约》 C.《黄埔条约》 D.《望厦条约》</view> 
+<view>
+  2.在下列不平等条件中，含有强迫清政府把台湾割让给日本这一内容的是（C ） 
+A.《南京条约》 B.《辛丑条约》 C.《马关条约》 D.《北京条约》
+</view>
+  </view>
+
+
+
+</view>
+
+<view>
+  <view class="title">类型B:</view>
+  <view class="content">
+      <view>18、“君问归期未有期，巴山夜雨涨秋池。何当共剪西窗烛，却话巴山夜雨时。”为唐代诗人李商隐所作，诗名为____。 A、《入峡次巴东》 B、《巫山高》 C、《离思》 D、《夜雨寄北》 答案：D   </view>
+  <view>
+     19、王安石的名句“不畏浮云遮望眼”的下一句是____。 A、两山排闼送青来 B、尚疑身属半山园 C、闻说鸡鸣见日升 D、自缘身在最高层 答案：D
+</view>
+  </view>
+
+</view>
+<button class="bstyle" bindtap="feedback">反馈</button>
+</view>

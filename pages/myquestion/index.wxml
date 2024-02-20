@@ -1,0 +1,15 @@
+<!--pages/question/index.wxml-->
+
+<text class="header_question">{{datas[i][0]}}</text>
+<view class="box">
+  <view class="option" bindtap="jump" data-tapvalue="{{index}}" wx:for="{{datas[i]}}" wx:if="{{(index<datas[i].length-1)&&index>0}}" style="background-color:{{colorvalue[index]}}" wx:key="index">
+    <text>{{item}}</text>
+  </view>
+
+  
+  <view class="answer" wx:if="{{finish_flag}}">
+    <text class="question_answer">答案：{{datas[i][datas[i].length-1]}}</text>
+    <button bindtap="next">下一个</button>
+  </view>
+
+</view>

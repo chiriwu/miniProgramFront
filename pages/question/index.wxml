@@ -1,0 +1,32 @@
+<!--pages/question/index.wxml-->
+
+
+<!-- <view wx:for="{{datas.GOODS}}" class="box">
+  <text>{{item.question}}</text>
+  <text class="option" bindtap="jump">{{item.tlt}}</text>
+  <text class="option" bindtap="jump">{{item.tlt}}</text>
+  <text class="option" bindtap="jump">{{item.tlt}}</text>
+  <text class="option" bindtap="jump">{{item.tlt}}</text>
+</view>  -->
+<text class="header_question">{{datas[i][0]}}</text>
+<view class="box">
+  <!-- <view class="option" bindtap="jump">
+    <text>{{datas[i][1]}}</text>
+  </view>
+  <view class="option" bindtap="jump">
+    <text>{{datas[i][2]}}</text>
+  </view>
+  <view class="option" bindtap="jump">
+    <text>{{datas[i][3]}}</text>
+  </view>
+  <view class="option" bindtap="jump">
+    <text>{{datas[i][4]}}</text>
+  </view> -->
+  <view class="option" bindtap="jump" data-tapvalue="{{index}}" wx:for="{{datas[i]}}" wx:if="{{(index<datas[i].length-1)&&index>0}}" style="background-color:{{colorvalue[index]}}" wx:key="index">
+    <text>{{item}}</text>
+  </view>
+  <!-- <text class="option" bindtap="jump">{{datas.GOODS[i].tlt}}</text>
+  <text class="option" bindtap="jump">{{datas.GOODS[i].tlt}}</text>
+  <text class="option" bindtap="jump">{{datas.GOODS[i].tlt}}</text>
+  <text class="option" bindtap="jump">{{datas.GOODS[i].tlt}}</text> -->
+</view>

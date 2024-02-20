@@ -1,0 +1,40 @@
+<!--pages/upload/index.wxml-->
+
+<text>
+上传文件： 
+</text>
+<view class="up">
+<text  wx:if="{{up_success_flag}}" class="up_success_style">已上传：{{local_file_name}}</text>
+<button bindtap="upup" wx:else>+</button> 
+</view>
+
+<view class="inputname">
+ <text>文档类型：</text>
+ <view class="picker">
+     <picker bindchange="bindPickerChange" value="{{style_index}}" range="{{multiArray}}">
+      <view class="right_move">
+        <text>{{multiArray[style_index]}}</text>
+      </view>
+  </picker>
+  <view class="tri"></view>
+ </view>
+</view>
+
+<view  class="help_page">
+  <text class="norm" bindtap="file_norm">文件规范</text>
+</view>
+
+
+<view class="inputname">
+  <text>题集名称：</text>
+  <input type="text" class="box" bindinput="getname"/>      
+</view>
+
+
+<button bindtap="convert">开始转换</button>
+
+<view class="help_page">
+  <text bindtap="output" class="help">?帮助</text>
+</view>
+
+

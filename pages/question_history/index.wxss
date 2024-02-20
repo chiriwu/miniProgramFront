@@ -1,0 +1,25 @@
+/* pages/question/index.wxss */
+
+.option{
+  height: 50px;
+  background-color: lightyellow;
+  text-align: center;
+  line-height:50px;
+  margin-bottom: 10px;
+  /* vertical-align: center; */
+  width: 720rpx;
+}
+
+.box{
+  /* height: 500px; */
+  /* height: 300px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30rpx;
+}
+
+.header_question{
+  margin: 30rpx 0  0 30rpx;
+}

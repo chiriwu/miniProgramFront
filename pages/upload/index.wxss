@@ -1,0 +1,64 @@
+/* pages/upload/index.wxss */
+
+.box{
+  border: 1rpx solid red;
+}
+
+.up{
+  display: flex;
+  justify-content: center;
+}
+.up_success_style{
+  font-size:20px;
+  font-weight: 650;
+  color: blue;
+  background-color: lightgrey;
+}
+.norm{
+  
+}
+.inputname{
+  display: flex;
+  flex-direction: row;
+  margin: 30rpx 0;
+}
+
+.convert{
+  margin-bottom: 30rpx;
+  margin-top: 30rpx;
+  /* background-color: lightgrey; */
+}
+
+.help_page{
+  display: flex;
+  justify-content: flex-end;
+
+  margin: 0 30rpx;
+  margin-right: 30rpx;
+}
+.norm,.help{
+  font-weight: 600;
+  color: #fff;
+  background-color: #5bc0de;
+  border-color: #46b8da;
+  padding: 6rpx 12rpx;
+  border-radius: 4rpx ;
+}
+
+.picker{
+   display: flex;
+   flex-direction: row;
+   border: 1rpx solid red;
+}
+
+.tri{
+  width: 0rpx;
+  height: 0rpx;
+  border:15rpx solid lightgrey;
+  border-color: lightgrey transparent transparent transparent; 
+  margin: 14rpx;
+}
+
+.right_move{
+  padding-left:15rpx;
+}

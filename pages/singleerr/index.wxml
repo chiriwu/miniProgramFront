@@ -1,0 +1,12 @@
+<!--pages/singleerr/index.wxml-->
+
+<!-- <text>{{erroritem}}</text> -->
+<text>{{erroritem[0]}}</text>
+<view class="box">
+
+  <view class="option" bindtap="jump" data-tapvalue="{{index}}" wx:for="{{erroritem}}" wx:if="{{(index<erroritem.length-1)&&index>0}}" style="background-color:{{colorvalue[index]}}">
+    <text>{{erroritem[index]}}</text>
+  </view>
+
+</view>
+<text>答案：{{erroritem[erroritem.length-1]}}</text>

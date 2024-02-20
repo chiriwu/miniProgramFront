@@ -1,0 +1,42 @@
+/* pages/my/index.wxss */
+
+.newitem {
+  /* background-color: red; */
+  margin: 20rpx;
+}
+
+.buttonstyle{
+  background-color: cyan;
+}
+
+.add{
+  background-color: red;
+}
+
+.singleitem{
+  display: flex;
+  justify-content: space-around;
+}
+
+.del_style{
+  flex-basis: 20%;
+  color: red;
+  background-color: blue;
+  border-radius: 10%;
+}
+
+.manage_button{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20rpx;
+}
+
+.manage_style{
+  background-color: #5bc0de;
+  padding: 6rpx 12rpx;
+  border-radius: 4rpx ;
+  border: 1rpx solid transparent;
+  color: #fff;
+  background-color: #5bc0de;
+  border-color: #46b8da;
+}

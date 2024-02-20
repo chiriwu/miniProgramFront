@@ -1,0 +1,15 @@
+/* pages/help/index.wxss */
+
+.title{
+  text-align: center;
+  font-weight: 800;
+  font-size: 50rpx;
+}
+.introduce{
+  margin: 30rpx;
+ margin-top: 60rpx;
+}
+
+.pt{
+  text-indent: 30rpx;
+}

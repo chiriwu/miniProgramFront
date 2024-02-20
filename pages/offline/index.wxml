@@ -1,0 +1,15 @@
+<!--pages/offline/index.wxml-->
+<view>
+  <view>
+    <navigator url="/pages/question/index">
+      <view class="item">
+        <text class="txt">学习强国</text>
+      </view>      
+    </navigator>
+    <navigator url="/pages/question_history/index">
+      <view class="item">
+        <text class="txt">中国近代史</text>
+      </view>
+    </navigator>
+      </view>  
+</view>

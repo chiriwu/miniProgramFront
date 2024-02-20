@@ -1,0 +1,15 @@
+/* pages/help/index.wxss */
+
+.introduce{
+  margin: 30rpx;
+ margin-top: 60rpx;
+}
+
+.send{
+  color: #fff;
+  background-color: #5bc0de;
+}
+
+.box{
+  border: 1rpx solid darklight;
+}

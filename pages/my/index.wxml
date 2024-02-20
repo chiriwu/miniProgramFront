@@ -1,0 +1,27 @@
+<!--pages/my/index.wxml-->
+<view  class="manage_button">
+<text bindtap="manage" class="manage_style">管理</text>
+</view>
+
+<scroll-view>
+<view wx:for="{{myitems}}" class="newitem" wx:key="index">
+
+  <view  class="singleitem" wx:if="{{manage_flag}}">
+  <button class="buttonstyle" bindtap="jump_item" data-itemname="{{item}}">{{item}}</button>
+  <button class="buttonstyle"  class="del_style" bindtap="del" data-seq="{{index}}">X</button>
+  </view>
+
+  <view bindtap="jump_item" data-itemname="{{item}}" class="singleitem" wx:else>
+  <button class="buttonstyle" >{{item}}</button>
+  </view>
+</view>
+
+
+<navigator url="/pages/upload/index">
+<button class="add">添加题集</button>
+</navigator>
+</scroll-view>
+
+
+<button class="finish" wx-if="{{manage_flag}}" bindtap="exit_manage">完成</button>
+
